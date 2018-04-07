@@ -1,0 +1,115 @@
+body {
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    min-width: 50px;
+    width: 100%;
+    min-height: 50px;
+    height: 100%;
+}
+
+.myName {
+    width: 90%;
+}
+
+.myName h1,.myName h4 {
+    text-align: right;
+    font-family: "Mina","sans-serif";
+}
+
+hr {
+    background-color: #aaa;
+    margin: 10px 0px;
+}
+
+.middle_img {
+    width: 100%;
+    min-height: 200px;
+}
+
+.myProjects .projects {
+    display: flex;
+    font-family: "Mina","sans-serif";
+}
+
+.myProjects h2 {
+    margin-top: 50px;
+    color: #aaa;
+    font-family: "Mina","sans-serif";
+}
+
+.projects img {
+    width: 100%;
+    min-height: 50px;
+}
+
+.projects figcaption {
+    font-family: inherit;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.projects figcaption p {
+    font-family: "Open Sans Condensed","sans-serif";
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.myInformation {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding: 20px;
+    font-family: "Mina","sans-serif";
+}
+
+.myInformation h3 {
+    font-family: inherit;
+    color: #aaa;
+    text-align: center;
+}
+
+.myInformation figure {
+    height: 12%;
+    background-color: #eee;
+}
+
+.myInformation img {
+    width: 50%;
+    height: 50px;
+    margin: auto;
+    display: block;
+}
+
+.myInformation figcaption {
+    text-align: center;
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: #ddd;
+}
+
+.myInformation ul {
+    list-style-type: none;
+    text-align: justify;
+    background-color: inherit;
+}

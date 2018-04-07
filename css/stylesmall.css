@@ -1,0 +1,122 @@
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 50%;
+    margin: auto;
+}
+
+.logo img {
+    min-width: 10px;
+    width: 40%;
+    min-height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.myName {
+    width: 100%;
+}
+
+.myName h1 {
+    text-align: center;
+    font-family: "Mina", "sans-serif";
+    font-size: 40px;
+}
+
+.myName h4 {
+    text-align: center;
+    font-family: "Mina", "sans-serif";
+    font-size: 30px;
+}
+
+hr {
+    background-color: #aaa;
+    margin: 10px 0px;
+}
+
+.middle_img {
+    width: 100%;
+    min-height: 200px;
+}
+
+.myProjects h2 {
+    margin-top: 50px;
+    font-family: "Mina", "sans-serif";
+    color: #aaa;
+    text-align: center;
+    font-size: 50px;
+}
+
+.projects img {
+    min-height: 50px;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.projects figcaption {
+    font-family: "Mina", "sans-serif";
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.projects figcaption p {
+    font-family: "Open Sans Condensed","sans-serif";
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.myInformation {
+    padding: 10px;
+}
+
+.myInformation h3 {
+    font-family: "Mina", "sans-serif";
+    color: #aaa;
+    text-align: center;
+    font-size: 50px;
+}
+
+.myInformation figure {
+    padding: 10px;
+    background-color: #eee;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.myInformation img {
+    width: 40%;
+    height: 120px;
+    margin: auto;
+    display: block;
+}
+
+.myInformation figcaption {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    background-color: #ccc;
+}
+
+.myInformation ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.myInformation ul li {
+    margin: 40px;
+    background-color: #aaa;
+}
